@@ -1,0 +1,46 @@
+.graytriangle {
+  text-align: center;
+}
+
+footer {
+  padding: 40px 0 0;
+  background-color: $footer-background;
+
+  a {
+    color: $footer-link-color;
+  }
+
+  .social-grid {
+    width: 160px;
+    li {
+      float: left;
+      width: 80px;
+    }
+  }
+
+  .redtriangle {
+    text-align: center;
+    display: block;
+    margin-top: 40px;
+  }
+}
+
+.bottom-footer {
+  background: $redfoot-background;
+  height: 40px;
+  line-height: 40px;
+  color: $white;
+  list-style: none;
+
+  .first {
+    text-align: left;
+  }
+
+  .second {
+    text-align: center;
+  }
+
+  .third {
+    text-align: right;
+  }
+}

@@ -1,0 +1,78 @@
+main {
+  .key-points {
+    padding: 40px 0;
+    .col-md-3 {
+      text-align: center;
+      .icon {
+        height: 40px;
+      }
+      p {
+        margin: 25px 0 25px;
+        color: $black;
+      }
+      .small {
+        width: 60px;
+        height: 1px;
+      }
+      span {
+        color: $red;
+      }
+    }
+  }
+
+  .quote {
+    background: $quote-background;
+    height: 85px;
+    position: relative;
+    .quotemarks {
+      position: absolute;
+      top: 20px;
+      left: 25px;
+    }
+  }
+
+  .places {
+    padding: 40px 0;
+
+    h4 {
+      font-size: 21px;
+      text-align: left;
+      color: $red;
+    }
+
+    img {
+      width: 100%;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    button {
+      width: 100%;
+      background: grey;
+      height: 40px;
+      border: 0;
+    }
+  }
+
+  hr {
+    height: 2px;
+    color: $veryLightGrey;
+  }
+
+  .prefoot {
+    padding: 40px 0;
+    text-align: center;
+
+    h2 {
+      font-size: 20px;
+      padding: 25px;
+    }
+    img {
+      display: inline-block;
+      margin: 0 auto;
+    }
+  }
+
+}

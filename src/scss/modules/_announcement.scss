@@ -1,0 +1,30 @@
+.announcement {
+  position: relative;
+  height: 240px;
+  background: $black;
+  background-image: url('/images/woodheader.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .hero {
+    background: rgba(0,0,0,0.8);
+    color: $hero-text-color;
+    text-align: center;
+    font-size: $hero-font-size;
+    position: relative;
+
+    button {
+      position: absolute;
+      bottom: -20px;
+      display: block;
+      font-size: 16px;
+      border: 0;
+      background: red;
+      padding: 13px 30px;
+    }
+  }
+}

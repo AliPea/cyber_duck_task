@@ -1,0 +1,47 @@
+// Colors
+$black:              #000000;
+$mediumGrey:         #333333;
+$lightGrey:          #666666;
+$lighterGrey:        #999999;
+$veryLightGrey:      #cccccc;
+$almostWhite:        #f0f0f0;
+$white:              #FFFFFF;
+$red:                #ff3333;
+
+// Fonts
+$sans-serif:         'PT Sans', sans-serif;
+
+// Font-sizes
+$base-font-size:     14px;
+
+// Module specific variables
+
+// HEADER
+$header-background:  $black;
+$header-height:      120px;
+$top-nav-link-color: $lighterGrey;
+$search-background:  $lightGrey;
+$search-font-size:   16px;
+
+// NAV
+$nav-background:     $mediumGrey;
+$nav-link-color:     $lighterGrey;
+$current-link-color: $black;
+$nav-border-color:   $veryLightGrey;
+
+// ANNOUNCEMENT
+$hero-text-color:    $white;
+$hero-font-size:     36px;
+
+// MAIN
+$quote-background:   $almostWhite;
+
+// FOOTER
+$footer-background:  $mediumGrey;
+$footer-link-color:  $lighterGrey;
+$redfoot-background: $red;
+
+
+
+$redtop: #e72424;
+$redmid: #df1e1e;

@@ -1,0 +1,29 @@
+nav {
+  background-color: $nav-background;
+  height: 41px;
+  font-family: 'PT Sans', sans-serif;
+  border-bottom: 1px solid $nav-border-color;
+  .container {
+    margin-bottom: 0;
+    height: 40px;
+    ul {
+      width: 100%;
+      margin: 0;
+      height: 40px;
+      li {
+        display: inline-block;
+        list-style: none;
+        a {
+          color: $nav-link-color;
+          line-height: 40px;
+          height: 40px;
+          display: inline-block;
+          padding: 0 25px;
+        }
+        &.current {
+          background: $current-link-color;
+        }
+      }
+    }
+  }
+}
