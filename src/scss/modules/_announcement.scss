@@ -9,8 +9,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   .hero {
+    margin: 0 auto;
+    // width: 630px;
+    // height: 150px;
     background: rgba(0,0,0,0.8);
     color: $hero-text-color;
     text-align: center;
@@ -18,12 +22,17 @@
     position: relative;
 
     button {
+      float: center;
       position: absolute;
       bottom: -20px;
       display: block;
       font-size: 16px;
       border: 0;
-      background: red;
+      background: $buttongradientredtop;
+      background: -webkit-linear-gradient($buttongradientredtop, $buttongradientredbottom);
+      border: 0;background: -o-linear-gradient($buttongradientredtop, $buttongradientredbottom);
+      background: -moz-linear-gradient($buttongradientredtop, $buttongradientredbottom);
+      background: linear-gradient($buttongradientredtop, $buttongradientredbottom);
       padding: 13px 30px;
     }
   }

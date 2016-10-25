@@ -23,6 +23,50 @@ footer {
     display: block;
     margin-top: 40px;
   }
+h6 {
+  color: $subscribe;
+  position: relative;
+  font: $sans-serif;
+  font-size: $base-font-size;
+}
+}
+form {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+  position: relative;
+  .search {
+    position: relative;
+    input {
+      display: block;
+      font-style: italic;
+      height: 40px;
+      width: 220px;
+      padding: 15px;
+      font-size: $search-font-size;
+      background-color: $search-background;
+      border: 0;
+      -webkit-box-shadow:inset 0 0 5px #000;
+         -moz-box-shadow:inset 0 0 5px #000;
+              box-shadow:inset 0 0 5px #000;
+    }
+  }
+  button {
+    float: right;
+    width: 140px;
+    height: 40px;
+    bottom: -20px;
+    display: block;
+    font-size: 16px;
+    background: $lighterGrey;
+    background: -webkit-linear-gradient($veryLightGrey, $lighterGrey);
+    border: 0;background: -o-linear-gradient($veryLightGrey, $lighterGrey);
+    background: -moz-linear-gradient($veryLightGrey, $lighterGrey);
+    background: linear-gradient($veryLightGrey, $lighterGrey);
+    border-bottom: solid 1px $buttonBorderBottom;
+    border-top: solid 1px $buttonBorderTop;
+    padding: 0px 30px;
+  }
 }
 
 .bottom-footer {

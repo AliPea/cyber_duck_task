@@ -4,6 +4,7 @@ header {
   line-height: $header-height;
   background-color: $header-background;
   font-family: $sans-serif;
+  overflow: hidden;
 
   img {
     display: inline-block;
@@ -26,6 +27,9 @@ header {
         }
         a {
           color: $top-nav-link-color;
+          &:hover {
+            color: $red;
+          }
         }
         img {
           margin: -2px 5px 0 0;
@@ -63,3 +67,94 @@ header {
     }
   }
 }
+//
+//
+// header img > ul > li:nth-child(1) a {
+//   text-transform: uppercase;
+//   font-weight: 700;
+//   font-size: 88px;
+// }
+//
+// header img > ul > li:nth-child(2) a {
+//   height: 35px;
+//   padding: 0 10px;
+//   font-size: 23px;
+//   line-height: 35px;
+//   background: black;
+// }
+//
+// header img > ul > li:nth-child(3) a {
+//   text-transform: uppercase;
+//   font-weight: 700;
+//   padding: 10px;
+//   font-size: 25px;
+//   display: inline-block;
+// }
+//
+// header img > ul > li:nth-child(4) form {
+//   background: $white;
+//   margin-bottom: 15px;
+// }
+//
+// header img > ul > li:nth-child(4) span {
+//   display: inline;
+// }
+//
+// header img > ul > li:nth-child(4) input {
+//   padding: 15px;
+//   display: inline-block;
+//   color: $lightGrey;
+//   text-decoration: none;
+// }
+//
+// header img > ul > li:nth-child(4) input:hover {
+//   background: $lightGrey;
+// }
+//
+//
+// @media only screen and (max-width: 960px) {
+//   header img ul li {
+//     display: none;
+//   }
+//
+//   header img > ul > li:nth-child(1),
+//   header img > ul > li:nth-child(4) {
+//     display: block;
+//   }
+//
+//   header img > ul > li:nth-child(1) {
+//     text-align: center;
+//     padding: 30px 0;
+//   }
+//
+//   header img > ul > li:nth-child(1) a {
+//     font-size: 40px;
+//   }
+//
+//
+// @media only screen and (max-width: 640px) {
+//   header img > ul > li:nth-child(1) {
+//     text-align: center;
+//     padding: 15px 0;
+//   }
+//
+//   header img > ul > li:nth-child(1) a {
+//     font-size: 30px;
+//   }
+//
+//   header img > ul > li:nth-child(4) form span {
+//     float: right;
+//     display: block;
+//   }
+//
+//   header img > ul > li:nth-child(4) form span input:before {
+//     content: '\2630';
+//   }
+//
+//   header img > ul > li:nth-child(4) form {
+//     display: none;
+//   }
+//
+//   header img > ul > li:nth-child(4) form span input {
+//     width: 100%;
+//   }

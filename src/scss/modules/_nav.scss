@@ -19,6 +19,9 @@ nav {
           height: 40px;
           display: inline-block;
           padding: 0 25px;
+          &:hover {
+            font-size: 105%;
+          }
         }
         &.current {
           background: $current-link-color;

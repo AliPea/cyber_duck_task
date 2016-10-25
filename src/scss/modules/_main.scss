@@ -29,6 +29,11 @@ main {
       top: 20px;
       left: 25px;
     }
+    .quotation {
+      position: absolute;
+      top: 20px;
+      left: 110px;
+    }
   }
 
   .places {
@@ -45,14 +50,22 @@ main {
     }
 
     p {
-      font-size: 16px;
+      font-size: 14px;
+      color: $mediumLightGrey;
     }
 
     button {
       width: 100%;
-      background: grey;
+      position: relative;
+      // background: grey;
       height: 40px;
-      border: 0;
+      background: $lighterGrey;
+      background: -webkit-linear-gradient($veryLightGrey, $lighterGrey);
+      border: 0;background: -o-linear-gradient($veryLightGrey, $lighterGrey);
+      background: -moz-linear-gradient($veryLightGrey, $lighterGrey);
+      background: linear-gradient($veryLightGrey, $lighterGrey);
+      border-bottom: solid 1px $buttonBorderBottom;
+      border-top: solid 1px $buttonBorderTop;
     }
   }
 
@@ -74,5 +87,4 @@ main {
       margin: 0 auto;
     }
   }
-
 }

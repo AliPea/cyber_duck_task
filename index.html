@@ -3,11 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>Cyber Duck</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen">
-  <link rel="stylesheet" href="/css/style.css">
-  <script src="/js/app.js" charset="utf-8"></script>
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" media="screen">
+  <script src="/js/app.js" charset="utf-8"></script>
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <header>
@@ -30,7 +31,6 @@
       </div>
     </div>
   </header>
-
   <nav>
     <div class="container">
       <ul>
@@ -54,7 +54,8 @@
   </nav>
 
   <div class="announcement">
-    <div class="hero col-md-8">Donec faucibus aliquam erat, id pulvinar sem ultricies non
+    <div class="hero col-md-8 col-md-offset-2">
+      Donec faucibus aliquam erat, id</br>pulvinar sem ultricies non
       <button type="button">Main CTA</button>
     </div>
   </div>
@@ -86,6 +87,7 @@
 
       <div class="quote row">
         <img class="quotemarks" src="images/quotes.jpg"/>
+        <img class="quotation" src="images/nulla.jpg"/>
       </div>
 
       <div class="places row">
@@ -111,7 +113,7 @@
     </div>
     <hr>
     <div class="container prefoot">
-      <h2>Etiam lacinia, nulla at malesuada varius, tellus urna venenatis mi, nec tempus dolor lectus vel nisl</h2>
+      <h2>Etiam lacinia, nulla at malesuada varius, tellus urna</br> venenatis mi, nec tempus dolor lectus vel nisl</h2>
       <img class="redbutton" src="images/mainCTA.png"/>
     </div>
   </main>
@@ -166,10 +168,13 @@
           </ul>
         </div>
         <div class="col-md-3">
-          <li>Subscribe to our newsletter</li>
-          <form class="search" method="get">
-            <input type="text" id="searchbar" img="#"/>
-            <button type="button" name="subscribe_button">Subscribe</button>
+          <h6>Subscribe to our newsletter</h6>
+          <form id="search" method="get" action="#">
+            <div class="search">
+              <span></span>
+              <input type="text" img="#" name="q" placeholder="Email address">
+            </div>
+           <button class="button" type="button">Subscribe</button>
           </form>
         </div>
       </div>

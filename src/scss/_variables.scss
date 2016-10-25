@@ -1,13 +1,19 @@
 // Colors
 $black:              #000000;
 $mediumGrey:         #333333;
+$mediumLightGrey:    #626262;
+$mediumDarkGrey:     #5c5c5c;
 $lightGrey:          #666666;
 $lighterGrey:        #999999;
 $veryLightGrey:      #cccccc;
+$subscribe:          #d6d6d6;
+$veryveryLightGrey:  #e0e0e0;
 $almostWhite:        #f0f0f0;
 $white:              #FFFFFF;
 $red:                #ff3333;
-
+$redtop:             #e72424;
+$redmid:             #df1e1e;
+$redbottom:          #b00000;
 // Fonts
 $sans-serif:         'PT Sans', sans-serif;
 
@@ -30,18 +36,17 @@ $current-link-color: $black;
 $nav-border-color:   $veryLightGrey;
 
 // ANNOUNCEMENT
-$hero-text-color:    $white;
-$hero-font-size:     36px;
+$hero-text-color:         $white;
+$hero-font-size:          36px;
+$buttongradientredtop:    $red;
+$buttongradientredbottom: $redbottom;
 
 // MAIN
 $quote-background:   $almostWhite;
+$buttonBorderBottom: $mediumDarkGrey;
+$buttonBorderTop:    $veryveryLightGrey;
 
 // FOOTER
 $footer-background:  $mediumGrey;
 $footer-link-color:  $lighterGrey;
 $redfoot-background: $red;
-
-
-
-$redtop: #e72424;
-$redmid: #df1e1e;
